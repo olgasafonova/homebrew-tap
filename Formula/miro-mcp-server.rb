@@ -10,7 +10,7 @@ class MiroMcpServer < Formula
   on_macos do
     on_intel do
       url "https://github.com/olgasafonova/miro-mcp-server/releases/download/v1.14.0/miro-mcp-server-darwin-amd64"
-      sha256 "a46e8c4dbda6adc9e51b080e1ba101cd16d655d5bc2b929e0b748b26a9ded9fe"
+      sha256 "581ac733f8deecad2bf2aa02859107beaf5da93ba4305afeb29598cdc99a6859"
 
       def install
         bin.install "miro-mcp-server-darwin-amd64" => "miro-mcp-server"
@@ -19,7 +19,7 @@ class MiroMcpServer < Formula
 
     on_arm do
       url "https://github.com/olgasafonova/miro-mcp-server/releases/download/v1.14.0/miro-mcp-server-darwin-arm64"
-      sha256 "c9ceb6c98508827a18306b7f44bc8972626584b6aaf74f82762ba18cb4e93afe"
+      sha256 "7034b644c1e54f7b1ac7fe835e33199143c9c351c07ed4ead2fd1444f3e4e77e"
 
       def install
         bin.install "miro-mcp-server-darwin-arm64" => "miro-mcp-server"
@@ -30,7 +30,7 @@ class MiroMcpServer < Formula
   on_linux do
     on_intel do
       url "https://github.com/olgasafonova/miro-mcp-server/releases/download/v1.14.0/miro-mcp-server-linux-amd64"
-      sha256 "8b1fabddaa1e8ebdeeedf89b3dea365d3d17b8247b0116020b0dae4e4d729a73"
+      sha256 "5c427f6212968626baf1a59f00c9bd1b0d2267940e37d3ba7d064b9c70335557"
 
       def install
         bin.install "miro-mcp-server-linux-amd64" => "miro-mcp-server"
