@@ -4,13 +4,13 @@
 class MiroMcpServer < Formula
   desc "Model Context Protocol (MCP) server for Miro whiteboard integration"
   homepage "https://github.com/olgasafonova/miro-mcp-server"
-  version "1.20.1"
+  version "1.21.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/olgasafonova/miro-mcp-server/releases/download/v1.20.1/miro-mcp-server-darwin-amd64"
-      sha256 "3607898336b0486631d2d387d80b0c02868c537318d31ed691a5ff34de9907c5"
+      url "https://github.com/olgasafonova/miro-mcp-server/releases/download/v1.21.0/miro-mcp-server-darwin-amd64"
+      sha256 "d75f81a5d62de66e67793ab6a1ecec62a0bb1880722a478ddb745f5e5365ca39"
 
       def install
         bin.install "miro-mcp-server-darwin-amd64" => "miro-mcp-server"
@@ -18,8 +18,8 @@ class MiroMcpServer < Formula
     end
 
     on_arm do
-      url "https://github.com/olgasafonova/miro-mcp-server/releases/download/v1.20.1/miro-mcp-server-darwin-arm64"
-      sha256 "520c904547c156f9ffcc6447ce1766d5e04f035f5748d198a7099a9c99228047"
+      url "https://github.com/olgasafonova/miro-mcp-server/releases/download/v1.21.0/miro-mcp-server-darwin-arm64"
+      sha256 "5771b582023eeed3bfdcf3d8459fcaa121106a2997489c440881ec9f9f7d5309"
 
       def install
         bin.install "miro-mcp-server-darwin-arm64" => "miro-mcp-server"
@@ -29,8 +29,8 @@ class MiroMcpServer < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/olgasafonova/miro-mcp-server/releases/download/v1.20.1/miro-mcp-server-linux-amd64"
-      sha256 "baa422d11e6685049331cd794b0d7c390fabee63108641b4fa63dfc8b8c54ca9"
+      url "https://github.com/olgasafonova/miro-mcp-server/releases/download/v1.21.0/miro-mcp-server-linux-amd64"
+      sha256 "0988a03b523bc747db4633741c59c201a429c179ca5b891b47265d00183b772c"
 
       def install
         bin.install "miro-mcp-server-linux-amd64" => "miro-mcp-server"
